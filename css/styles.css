@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 .icon-text-menu {
   display: flex;
   flex-direction: column;
@@ -1105,7 +1107,7 @@ button.dropdown-item {
 
 .navbar {
   background-color: white;
-  min-height: 6rem;
+  min-height: 6.3rem;
   position: relative;
   z-index: 30; }
   .navbar.is-white {
@@ -1561,7 +1563,7 @@ button.dropdown-item {
   .navbar > .container {
     align-items: stretch;
     display: flex;
-    min-height: 6rem;
+    min-height: 6.3rem;
     width: 100%; }
   .navbar.has-shadow {
     box-shadow: 0 2px 0 0 whitesmoke; }
@@ -1579,18 +1581,18 @@ button.dropdown-item {
 
 html.has-navbar-fixed-top,
 body.has-navbar-fixed-top {
-  padding-top: 6rem; }
+  padding-top: 6.3rem; }
 
 html.has-navbar-fixed-bottom,
 body.has-navbar-fixed-bottom {
-  padding-bottom: 6rem; }
+  padding-bottom: 6.3rem; }
 
 .navbar-brand,
 .navbar-tabs {
   align-items: stretch;
   display: flex;
   flex-shrink: 0;
-  min-height: 6rem; }
+  min-height: 6.3rem; }
 
 .navbar-brand a.navbar-item:focus, .navbar-brand a.navbar-item:hover {
   background-color: transparent; }
@@ -1610,9 +1612,9 @@ body.has-navbar-fixed-bottom {
   border: none;
   cursor: pointer;
   display: block;
-  height: 6rem;
+  height: 6.3rem;
   position: relative;
-  width: 6rem;
+  width: 6.3rem;
   margin-left: auto; }
   .navbar-burger span {
     background-color: currentColor;
@@ -1678,7 +1680,7 @@ a.navbar-item,
     flex-shrink: 1; }
   .navbar-item.is-tab {
     border-bottom: 1px solid transparent;
-    min-height: 6rem;
+    min-height: 6.3rem;
     padding-bottom: calc(0.5rem - 1px); }
     .navbar-item.is-tab:focus, .navbar-item.is-tab:hover {
       background-color: transparent;
@@ -1745,14 +1747,14 @@ a.navbar-item,
     top: 0; }
   .navbar.is-fixed-top .navbar-menu, .navbar.is-fixed-top-touch .navbar-menu {
     -webkit-overflow-scrolling: touch;
-    max-height: calc(100vh - 6rem);
+    max-height: calc(100vh - 6.3rem);
     overflow: auto; }
   html.has-navbar-fixed-top-touch,
   body.has-navbar-fixed-top-touch {
-    padding-top: 6rem; }
+    padding-top: 6.3rem; }
   html.has-navbar-fixed-bottom-touch,
   body.has-navbar-fixed-bottom-touch {
-    padding-bottom: 6rem; } }
+    padding-bottom: 6.3rem; } }
 
 @media screen and (min-width: 1024px) {
   .navbar,
@@ -1762,7 +1764,7 @@ a.navbar-item,
     align-items: stretch;
     display: flex; }
   .navbar {
-    min-height: 6rem; }
+    min-height: 6.3rem; }
     .navbar.is-spaced {
       padding: 4rem 6rem; }
       .navbar.is-spaced .navbar-start,
@@ -1875,16 +1877,16 @@ a.navbar-item,
     top: 0; }
   html.has-navbar-fixed-top-desktop,
   body.has-navbar-fixed-top-desktop {
-    padding-top: 6rem; }
+    padding-top: 6.3rem; }
   html.has-navbar-fixed-bottom-desktop,
   body.has-navbar-fixed-bottom-desktop {
-    padding-bottom: 6rem; }
+    padding-bottom: 6.3rem; }
   html.has-spaced-navbar-fixed-top,
   body.has-spaced-navbar-fixed-top {
-    padding-top: 14rem; }
+    padding-top: 14.3rem; }
   html.has-spaced-navbar-fixed-bottom,
   body.has-spaced-navbar-fixed-bottom {
-    padding-bottom: 14rem; }
+    padding-bottom: 14.3rem; }
   a.navbar-item.is-active,
   .navbar-link.is-active {
     color: #0a0a0a; }
@@ -1895,7 +1897,7 @@ a.navbar-item,
     background-color: rgba(170, 170, 170, 0.342); } }
 
 .hero.is-fullheight-with-navbar {
-  min-height: calc(100vh - 6rem); }
+  min-height: calc(100vh - 6.3rem); }
 
 .pagination {
   font-size: 1rem;
@@ -2385,13 +2387,13 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+  font-family: "Roboto Condensed", sans-serif; }
 
 code,
 pre {
   -moz-osx-font-smoothing: auto;
   -webkit-font-smoothing: auto;
-  font-family: monospace; }
+  font-family: "Roboto Condensed", sans-serif; }
 
 body {
   color: #4a4a4a;
@@ -2914,13 +2916,13 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+  font-family: "Roboto Condensed", sans-serif; }
 
 code,
 pre {
   -moz-osx-font-smoothing: auto;
   -webkit-font-smoothing: auto;
-  font-family: monospace; }
+  font-family: "Roboto Condensed", sans-serif; }
 
 body {
   color: #4a4a4a;
@@ -6164,7 +6166,7 @@ button.dropdown-item {
 
 .navbar {
   background-color: white;
-  min-height: 6rem;
+  min-height: 6.3rem;
   position: relative;
   z-index: 30; }
   .navbar.is-white {
@@ -6620,7 +6622,7 @@ button.dropdown-item {
   .navbar > .container {
     align-items: stretch;
     display: flex;
-    min-height: 6rem;
+    min-height: 6.3rem;
     width: 100%; }
   .navbar.has-shadow {
     box-shadow: 0 2px 0 0 whitesmoke; }
@@ -6638,18 +6640,18 @@ button.dropdown-item {
 
 html.has-navbar-fixed-top,
 body.has-navbar-fixed-top {
-  padding-top: 6rem; }
+  padding-top: 6.3rem; }
 
 html.has-navbar-fixed-bottom,
 body.has-navbar-fixed-bottom {
-  padding-bottom: 6rem; }
+  padding-bottom: 6.3rem; }
 
 .navbar-brand,
 .navbar-tabs {
   align-items: stretch;
   display: flex;
   flex-shrink: 0;
-  min-height: 6rem; }
+  min-height: 6.3rem; }
 
 .navbar-brand a.navbar-item:focus, .navbar-brand a.navbar-item:hover {
   background-color: transparent; }
@@ -6669,9 +6671,9 @@ body.has-navbar-fixed-bottom {
   border: none;
   cursor: pointer;
   display: block;
-  height: 6rem;
+  height: 6.3rem;
   position: relative;
-  width: 6rem;
+  width: 6.3rem;
   margin-left: auto; }
   .navbar-burger span {
     background-color: currentColor;
@@ -6737,7 +6739,7 @@ a.navbar-item,
     flex-shrink: 1; }
   .navbar-item.is-tab {
     border-bottom: 1px solid transparent;
-    min-height: 6rem;
+    min-height: 6.3rem;
     padding-bottom: calc(0.5rem - 1px); }
     .navbar-item.is-tab:focus, .navbar-item.is-tab:hover {
       background-color: transparent;
@@ -6804,14 +6806,14 @@ a.navbar-item,
     top: 0; }
   .navbar.is-fixed-top .navbar-menu, .navbar.is-fixed-top-touch .navbar-menu {
     -webkit-overflow-scrolling: touch;
-    max-height: calc(100vh - 6rem);
+    max-height: calc(100vh - 6.3rem);
     overflow: auto; }
   html.has-navbar-fixed-top-touch,
   body.has-navbar-fixed-top-touch {
-    padding-top: 6rem; }
+    padding-top: 6.3rem; }
   html.has-navbar-fixed-bottom-touch,
   body.has-navbar-fixed-bottom-touch {
-    padding-bottom: 6rem; } }
+    padding-bottom: 6.3rem; } }
 
 @media screen and (min-width: 1024px) {
   .navbar,
@@ -6821,7 +6823,7 @@ a.navbar-item,
     align-items: stretch;
     display: flex; }
   .navbar {
-    min-height: 6rem; }
+    min-height: 6.3rem; }
     .navbar.is-spaced {
       padding: 4rem 6rem; }
       .navbar.is-spaced .navbar-start,
@@ -6934,16 +6936,16 @@ a.navbar-item,
     top: 0; }
   html.has-navbar-fixed-top-desktop,
   body.has-navbar-fixed-top-desktop {
-    padding-top: 6rem; }
+    padding-top: 6.3rem; }
   html.has-navbar-fixed-bottom-desktop,
   body.has-navbar-fixed-bottom-desktop {
-    padding-bottom: 6rem; }
+    padding-bottom: 6.3rem; }
   html.has-spaced-navbar-fixed-top,
   body.has-spaced-navbar-fixed-top {
-    padding-top: 14rem; }
+    padding-top: 14.3rem; }
   html.has-spaced-navbar-fixed-bottom,
   body.has-spaced-navbar-fixed-bottom {
-    padding-bottom: 14rem; }
+    padding-bottom: 14.3rem; }
   a.navbar-item.is-active,
   .navbar-link.is-active {
     color: #0a0a0a; }
@@ -6954,7 +6956,7 @@ a.navbar-item,
     background-color: rgba(170, 170, 170, 0.342); } }
 
 .hero.is-fullheight-with-navbar {
-  min-height: calc(100vh - 6rem); }
+  min-height: calc(100vh - 6.3rem); }
 
 .pagination {
   font-size: 1rem;
@@ -9659,10 +9661,10 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   font-weight: 700 !important; }
 
 .is-family-primary {
-  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important; }
+  font-family: "Roboto Condensed", sans-serif !important; }
 
 .is-family-secondary {
-  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important; }
+  font-family: "Roboto", sans-serif !important; }
 
 .is-family-sans-serif {
   font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important; }
@@ -9671,7 +9673,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   font-family: monospace !important; }
 
 .is-family-code {
-  font-family: monospace !important; }
+  font-family: "Roboto Condensed", sans-serif !important; }
 
 .is-block {
   display: block !important; }
@@ -10506,9 +10508,17 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   color: white;
   background-color: #F25D07; }
 
+#services {
+  background: url(../img/fondotriangulos.jpg) no-repeat center center;
+  background-size: contain; }
+
 #alquiler-de-oficinas {
-  width: 100%;
-  height: 100%; }
+  background: url(../img/fondo3.jpg) no-repeat center center;
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100%; }
+  #alquiler-de-oficinashover {
+    opacity: 0.8; }
 
 #cards-services .column:hover {
   background-color: #aaa9a91a;
@@ -10625,3 +10635,14 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   100% {
     -webkit-transform: perspective(400px);
     transform: perspective(400px); } }
+
+.slide-in-br {
+  animation: slide-in-br 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 3s both; }
+
+@keyframes slide-in-br {
+  0% {
+    transform: translateY(1000px) translateX(1000px);
+    opacity: 0; }
+  100% {
+    transform: translateY(0) translateX(0);
+    opacity: 1; } }
