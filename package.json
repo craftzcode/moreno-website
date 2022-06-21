@@ -21,5 +21,8 @@
     "url": "https://github.com/craftzcode/moreno-website/issues"
   },
   "homepage": "https://github.com/craftzcode/moreno-website#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "bulma-carousel": "^4.0.24"
+  }
 }
