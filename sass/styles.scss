@@ -1,3 +1,12 @@
 @charset "utf-8";
 @import "../node_modules/bulma/bulma.sass";
 
+
+//Colors
+$orange: #F25D07;
+
+
+//Color classes
+.is-orange {
+    color: $orange;
+} 
