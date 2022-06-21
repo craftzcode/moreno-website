@@ -2,7 +2,7 @@
 $orange: #F25D07;
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
 
 //Navbar
 $font-family: 'Roboto Condensed', sans-serif;
@@ -10,14 +10,48 @@ $font-family-secondary: 'Roboto' , sans-serif;
 $family-primary: $font-family;
 $family-secondary: $font-family-secondary;
 $family-code: $font-family;
-
-$link: $orange;
-$navbar-height: 6.3rem;
+$link: black;
+$link-hover: white;
+$navbar-height: 4rem;
 $navbar-padding-vertical: 4rem;
 $navbar-padding-horizontal: 6rem;
 $navbar-item-hover-background-color: rgba(170, 170, 170, 0.342);
-$navbar-item-color: black;
+$navbar-item-color: rgb(39, 39, 39);
 
+//Footer
+footer {
+  font-size: 0.8rem;
+}
+$footer-padding: 0.4rem;
+$footer-background-color: rgb(39, 39, 39);
+footer .container .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+//Footer lista
+.lista {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-decoration: none;
+  list-style-type: none;
+
+  li {
+    color: #F25D07;
+    padding: 1rem;
+  } a {
+    color: #F25D07;
+  }
+};
+
+//Clases
+.proximamente {
+    letter-spacing: 0.3rem;
+};
 
 //Navbar
 .icon-text-menu {
@@ -33,3 +67,11 @@ $navbar-item-color: black;
   width: 102px;
   height: 102px;
 };
+
+nav a:hover{
+    color: #F25D07;
+    background-color: #aaa9a91a;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}; 

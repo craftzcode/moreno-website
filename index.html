@@ -6,10 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Title</title>
     <link rel="stylesheet" href="css/styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css"
-    />
   </head>
   <body>
     <nav
@@ -59,6 +55,7 @@
               <span>Servicios</span>
             </icon>
           </a>
+
           <a class="navbar-item">
             <span class="icon-text-menu">
               <span class="icon">
@@ -67,7 +64,7 @@
               <span>Alquiler</span>
             </span>
           </a>
-          <a class="navbar-item">
+          <a href="#" class="navbar-item">
             <span class="icon-text-menu">
               <span class="icon">
                 <i class="fa-solid fa-comments"></i>
@@ -81,13 +78,13 @@
 
     <section id="slider" class="hero is-fullheight">
       <div class="hero-body">
-        <div class="">
+        <div class="content">
           <p class="title">Slider</p>
         </div>
       </div>
     </section>
     <section id="services" class="section is-fullheight m-3">
-      <div id="cards-services" class="container">
+      <div id="cards-service" class="container">
         <div class="columns m-6">
           <div class="column">
             <div class="content has-text-centered">
@@ -143,12 +140,17 @@
         </div>
       </div>
     </section>
-    <section id="alquiler-de-oficinas" class="section is-medium has-text-centered">
+    <section
+      id="alquiler-de-oficinas"
+      class="section is-medium has-text-centered"
+    >
       <div class="container">
         <div class="content">
           <div class="div">
-            <h2 class="subtitle is-6 has-text-white">PROXIMAMENTE</h2>
-            <h2 class="subtitle is-3 has-text-white">ALQUILER DE OFICINAS</h2>
+            <h2 class="subtitle is-6 has-text-white has-text-weight-normal">PROXIMAMENTE</h2>
+          </div>
+          <div class="div">
+            <h2 class="subtitle is-2 has-text-white has-text-weight-bold">ALQUILER DE OFICINAS</h2>
           </div>
           <div class="content mt-4">
             <p class="has-text-white">
@@ -158,8 +160,11 @@
             </p>
           </div>
           <div class="content is-centered mt-4">
-            <button class="is-orange-button rubberBand">
-              MAS INFORMACION
+            <button
+              href="https://www.google.com"
+              class="is-orange-button rubberBand"
+            >
+              <a href="#">MAS INFORMACION</a>
             </button>
           </div>
         </div>
@@ -190,6 +195,24 @@
         </div>
       </div>
     </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="columns center">
+          <div class="column has-text-white">
+            <p class="is-size-7">Copyright 2021 by Moreno Store Center</p>
+          </div>
+          <div class="column">
+            <div class="is-right">
+              <ul class="lista">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Propusta</a></li>
+                <li><a href="#">Contacto</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
   <script
     src="https://kit.fontawesome.com/3260b3276c.js"
