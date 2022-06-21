@@ -1,0 +1,25 @@
+{
+  "name": "moreno",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "bulma": "^0.9.4",
+    "node-sass": "^7.0.1"
+  },
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url sass/styles.scss css/styles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craftzcode/moreno-website.git"
+  },
+  "author": "malena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/craftzcode/moreno-website/issues"
+  },
+  "homepage": "https://github.com/craftzcode/moreno-website#readme",
+  "description": ""
+}
