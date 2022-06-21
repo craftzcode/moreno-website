@@ -9,3 +9,19 @@ $navbar-padding-vertical: 4rem;
 $navbar-padding-horizontal: 6rem;
 $navbar-item-hover-background-color: rgba(170, 170, 170, 0.342);
 $navbar-item-color: black;
+
+
+//Navbar
+.icon-text-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+};
+
+.navbar-logo {
+  background: url(/img/LogosStoreCenter.jpg) no-repeat center center;
+  background-size:contain;
+  width: 102px;
+  height: 102px;
+};
