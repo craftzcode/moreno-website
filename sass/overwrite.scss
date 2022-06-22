@@ -62,7 +62,7 @@ footer .container .center {
 };
 
 .navbar-logo {
-  background: url(/img/LogosStoreCenter.jpg) no-repeat center center;
+  background: url(../img/LogosStoreCenter.jpg) no-repeat center center;
   background-size:contain;
   width: 102px;
   height: 102px;
@@ -75,3 +75,10 @@ nav a:hover{
     -ms-transition: background-color 1000ms linear;
     transition: background-color 1000ms linear;
 }; 
+
+@media screen and (max-width: 720px){
+  .navbar-logo {
+    width: 100px;
+    height: 100px;
+  }
+}

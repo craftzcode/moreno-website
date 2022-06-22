@@ -39,8 +39,8 @@ p {
 
 // SLider
 #slider {
-    background-image: url(/img/fondoslider.png);
-    background-size: cover;
+    background-image: url(../img/fondoslider.png) no-repeat center center;
+    background-size: contain;
 };
 
 // Button
